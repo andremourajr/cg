@@ -17,9 +17,9 @@ public class ExercicioPoligonos extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         
-        int[] xValues = {10, 20, 30, 40, 30, 20, 10}; 
-        int[] yValues = {10, 20, 20, 10, 20, 20, 10};
-        g.drawPolygon(xValues, yValues, 6);
+        int[] xValues = {20, 40, 60, 80, 60, 40, 20}; 
+        int[] yValues = {40, 20, 20, 40, 60, 60, 40};
+        g.fillPolygon(xValues, yValues, 6);
         
     }
 }
