@@ -21,5 +21,9 @@ public class ExercicioPoligonos extends JPanel {
         int[] yValues = {40, 20, 20, 40, 60, 60, 40};
         g.fillPolygon(xValues, yValues, 6);
         
+        xValues = new int[] {120, 140, 160, 180, 160, 140, 120}; 
+        yValues = new int[] {40, 20, 20, 40, 60, 60, 40};
+        g.drawPolygon(xValues, yValues, 6);
+        
     }
 }
