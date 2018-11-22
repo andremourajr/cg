@@ -5,6 +5,8 @@
  */
 package br.edu.universo.si.cg.imageprocessing;
 
+
+
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
